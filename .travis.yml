@@ -12,11 +12,5 @@ notifications:
     recipients:
       - kimrr@stud.ntnu.no
       - k-riro@online.no
-    on_failure:        // always sending e-mail...
-
-
-
-
-
-
-// on_succsess: never sending e-mail
+    on_failure: always
+    on_success: never
